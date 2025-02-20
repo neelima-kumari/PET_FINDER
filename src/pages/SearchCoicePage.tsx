@@ -34,7 +34,7 @@ const SearchChoicePage: React.FC<{ setShowLocation: React.Dispatch<React.SetStat
      minAge: "",
      maxAge: "",
      zip_code: "",
-     flowType: "Get Started"
+     flowType: ["Get Started", "Explore Now"]
    });
 
   useEffect(() => {
